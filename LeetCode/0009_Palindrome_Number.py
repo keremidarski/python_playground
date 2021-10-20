@@ -1,3 +1,8 @@
+# https://leetcode.com/problems/palindrome-number/
+
+# Given an integer x, return true if x is palindrome integer.
+# An integer is a palindrome when it reads the same backward as forward. For example, 121 is palindrome while 123 is not.
+
 def is_palindrome(x):
     result = []
     
@@ -9,4 +14,9 @@ def is_palindrome(x):
     else:
         return False
 
-print(is_palindrome(12321))
+# Expected: True
+print(is_palindrome(121))
+# Expected: False
+print(is_palindrome(1231))
+# Expected: False
+print(is_palindrome(-121))
