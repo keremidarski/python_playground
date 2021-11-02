@@ -7,4 +7,4 @@ def reverse_string_inplace(s):
 
 # Expected: ["o","l","l","e","h"]
 s = ["h","e","l","l","o"]
-reverse_string_inplace()
+reverse_string_inplace(s)
