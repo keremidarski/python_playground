@@ -11,8 +11,8 @@ def is_palindrome(x):
 
     if str(x) == ''.join(result):
         return True
-    else:
-        return False
+    
+    return False
 
 # Expected: True
 print(is_palindrome(121))
