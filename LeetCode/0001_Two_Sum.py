@@ -13,5 +13,5 @@ def two_sum(nums, target):
         else:
             d[n] = i
 
-# Expected: [1,2]
-print(two_sum([3,2,4], 6))
+# Expected: [1, 2]
+print(two_sum([3, 2, 4], 6))
