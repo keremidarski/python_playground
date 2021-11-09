@@ -5,5 +5,5 @@
 def to_lower_case(str):
     return str.lower()
 
-# Expected: "lovely"
-print(to_lower_case("LOVELY"))
+# Expected: 'lovely'
+print(to_lower_case('LOVELY'))
