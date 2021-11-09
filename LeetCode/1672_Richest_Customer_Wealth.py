@@ -14,4 +14,4 @@ def maximum_wealth(accounts):
     return max_wealth
 
 # Expected: 17
-print(maximum_wealth([[2,8,7],[7,1,3],[1,9,5]]))
+print(maximum_wealth([[2, 8, 7], [7, 1, 3], [1, 9, 5]]))
