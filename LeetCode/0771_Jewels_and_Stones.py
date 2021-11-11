@@ -10,7 +10,8 @@ def jewels_in_stones(jewels, stones):
         for jewel in jewels:
             if stone == jewel:
                 counter += 1
+    
     return counter
 
 # Expected: 3
-print(jewels_in_stones("aA", "aAAbbbb"))
+print(jewels_in_stones('aA', 'aAAbbbb'))
