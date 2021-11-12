@@ -16,5 +16,5 @@ def dest_city(paths):
         if outgoing_count[city] == 0:
             return city
         
-# Expected: "Sao Paulo"
-print(dest_city([["London", "New York"], ["New York", "Lima"], ["Lima", "Sao Paulo"]]))
+# Expected: 'Sao Paulo'
+print(dest_city([['London', 'New York'], ['New York', 'Lima'], ['Lima', 'Sao Paulo']]))
