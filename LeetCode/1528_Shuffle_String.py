@@ -13,5 +13,5 @@ def restore_string(str, indices):
             
     return ''.join(result)
 
-# Expected: "arigatou"
+# Expected: 'arigatou'
 print(restore_string('aaiougrt', [4, 0, 2, 6, 7, 3, 1, 5]))
