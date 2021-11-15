@@ -15,6 +15,7 @@ def shuffle_array(nums):
     for i in range(nums):
         result.append(x_array[i])
         result.append(y_array[i])
+        
     return result
 
 # Expected: [2, 3, 5, 4, 1, 7]
