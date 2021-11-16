@@ -23,4 +23,4 @@ def truncate_sentence(s, k):
     s = ''.join(truncated)
     return s
 
-print(truncate_sentence("Hello how are you Contestant", 4))
+print(truncate_sentence('Hello how are you Contestant', 4))
