@@ -8,6 +8,7 @@ def get_concatenation(nums):
                 result.append(i)               
                 counter -= 1
         counter = len(nums)
+    
     return result
 
 print(get_concatenation([1, 2, 1]))
