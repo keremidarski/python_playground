@@ -10,4 +10,4 @@ def get_concatenation(nums):
         counter = len(nums)
     return result
 
-print(get_concatenation([1,2,1]))
+print(get_concatenation([1, 2, 1]))
