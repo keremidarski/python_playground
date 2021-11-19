@@ -19,4 +19,4 @@ def sort_sentence(s):
 
     return ' '.join(result)
 
-print(sort_sentence("Myself2 Me1 I4 and3"))
+print(sort_sentence('Myself2 Me1 I4 and3'))
