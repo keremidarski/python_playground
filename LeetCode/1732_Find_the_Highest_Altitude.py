@@ -10,4 +10,4 @@ def highest_altitude(gain):
 
     return max_altitude
 
-print(highest_altitude([-4,-3,-2,-1,4,3,2]))
+print(highest_altitude([-4, -3, -2, -1, 4, 3, 2]))
