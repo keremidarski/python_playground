@@ -13,4 +13,4 @@ def count_consistent_strings(allowed, words):
             result += 1
     return result
 
-print(count_consistent_strings("ab", ["ad","bd","aaab","baa","badab"]) == 2)
+print(count_consistent_strings('ab', ['ad','bd','aaab','baa','badab']) == 2)
