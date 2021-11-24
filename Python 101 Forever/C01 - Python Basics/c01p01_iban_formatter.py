@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/12-C01P01
+
 def iban_formatter(iban):
     iban = iban.replace(' ', '')
     i_list = []
