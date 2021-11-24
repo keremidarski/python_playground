@@ -1,6 +1,3 @@
-# Python Playground
-A playground where I upload different problems and projects.
-
 # LeetCode
 Here are some LeetCode problems I solved.
 
