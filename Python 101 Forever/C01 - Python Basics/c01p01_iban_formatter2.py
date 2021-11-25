@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/12-C01P01
+
 def iban_formatter2(iban):
     result = []
     counter = 1
@@ -15,4 +18,5 @@ def iban_formatter2(iban):
         counter += 1
     return ''.join(result)
 
-print(iban_formatter2("BG80BNBG96611020345678"))
+# Expected: 'BG80 BNBG 9661 1020 3456 78'
+print(iban_formatter2('BG80BNBG96611020345678'))
