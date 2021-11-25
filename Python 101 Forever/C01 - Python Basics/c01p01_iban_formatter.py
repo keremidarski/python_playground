@@ -24,4 +24,5 @@ def iban_formatter(iban):
 
     return result
 
-print(iban_formatter("BG80 BNBG 9661 1020 3456 78"))
+# Expected: 'BG80 BNBG 9661 1020 3456 78'
+print(iban_formatter('BG80 BNBG 9661 1020 3456 78'))
