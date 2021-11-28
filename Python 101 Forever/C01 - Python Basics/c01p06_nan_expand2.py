@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/17-C01P06
+
 def nan_expand(times):
     result = ''
 
@@ -9,4 +12,5 @@ def nan_expand(times):
 
     return ' '.join(result)
 
-print(nan_expand(0))
+# Expected: 'Not a NaN'
+print(nan_expand(1))
