@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/18-C01P07
+
 from enum import Enum
 
 class Monotonicity(Enum):
@@ -28,17 +31,7 @@ def increasing_or_decreasing(ns):
         
     return Monotonicity.NONE
 
-tests = [increasing_or_decreasing([1, 2, 3, 4, 5]) == Monotonicity.INCREASING,
-        increasing_or_decreasing([5, 6, -10]) == Monotonicity.NONE,
-        increasing_or_decreasing([1, 1, 1, 1]) == Monotonicity.NONE,
-        increasing_or_decreasing([9, 8, 7, 6]) == Monotonicity.DECREASING,
-        increasing_or_decreasing([]) == Monotonicity.NONE,
-        increasing_or_decreasing([1]) == Monotonicity.NONE,
-        increasing_or_decreasing([1, 100]) == Monotonicity.INCREASING,
-        increasing_or_decreasing([1, 100, 100]) == Monotonicity.NONE,
-        increasing_or_decreasing([100, 1]) == Monotonicity.DECREASING,
-        increasing_or_decreasing([100, 1, 1]) == Monotonicity.NONE,
-        increasing_or_decreasing([100, 1, 2]) == Monotonicity.NONE]
-
-for test in tests:
-    print(test)
+# Expected: True
+print(increasing_or_decreasing([1, 2, 3, 4, 5]) == Monotonicity.INCREASING)
+print(increasing_or_decreasing([9, 8, 7, 6]) == Monotonicity.DECREASING)
+print(increasing_or_decreasing([100, 1, 2]) == Monotonicity.NONE)
