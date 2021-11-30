@@ -18,6 +18,7 @@ def group(items):
             temp_group = [item]
     
     result.append(temp_group)
+    
     return result
 
 tests = [group([1, 1, 1, 2, 3, 1, 1]) == [[1, 1, 1], [2], [3], [1, 1]],
