@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/20-C01P09
+
 def number_to_digits(number):
     digits = []
     number = abs(number)
@@ -32,5 +35,6 @@ tests = [is_number_balanced(9) is True,
         is_number_balanced(28471) is False,
         is_number_balanced(1238033) is True]
 
+# Expected: True
 for test in tests:
     print(test)
