@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/21-C01P11
+
 def char_histogram(string):
     string = string.lower().replace(' ', '')
     result = {}
@@ -21,4 +24,5 @@ tests = [
         ]
 
 for test in tests:
+    # Expected: True
     print(test)
