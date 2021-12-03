@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/23-C01P12
+
 def is_credit_card_valid(number):
     n_list = list(str(number))
     result = []
@@ -35,5 +38,6 @@ tests = [
 
 for number, expected in tests:
     result = is_credit_card_valid(number)
-
+    
+    # Expected: True
     print(result == expected)
