@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/28-C01P17
+
 def word_counter(matrix, word):
     result = 0
     left_to_right = list(word)
@@ -74,4 +77,6 @@ matrix = [
     ["m", "v", "v", "n"],
     ["q", "r", "i", "t"]
 ]
+
+# Expected: 3
 print(word_counter(matrix, word))
