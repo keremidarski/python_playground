@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/27-C01P16
+
 def numbers_to_message(pressed_sequence):
     result = []
     letters = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'], ['m', 'n', 'o'], ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'x', 'y', 'z']]
@@ -63,4 +66,5 @@ def numbers_to_message(pressed_sequence):
 
     return ''.join(result)
 
-print(numbers_to_message([7, 7, 7, 7, 3, 3, 6, 6, 3, 0, 6, 6, 8, 8, 3, -1, 3, 3, 7, 7, 7, 7]))
+# Expected: 'abc'
+print(numbers_to_message([2, -1, 2, 2, -1, 2, 2, 2]))
