@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/27-C01P16
+
 def message_to_numbers(message):
     sequence = []
     letters = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'], ['m', 'n', 'o'], ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'x', 'y', 'z']]
@@ -36,17 +39,5 @@ def message_to_numbers(message):
 
     return sequence
 
-print(message_to_numbers("send nudes"))
-
-# tests = [
-#     ("abc", [2, -1, 2, 2, -1, 2, 2, 2]),
-#     ("a", [2]),
-#     ("Ivo e Panda", [1, 4, 4, 4, 8, 8, 8, 6, 6, 6, 0, 3, 3, 0, 1, 7, 2, 6, 6, 3, 2]),  # noqa
-#     ("aabbcc", [2, -1, 2, -1, 2, 2, -1, 2, 2, -1, 2, 2, 2, -1, 2, 2, 2])
-# ]
-
-
-# for message, expected in tests:
-#     result = message_to_numbers(message)
-
-#     print(expected == result)
+# Expected: [2, -1, 2, 2, -1, 2, 2, 2]
+print(message_to_numbers('abc'))
