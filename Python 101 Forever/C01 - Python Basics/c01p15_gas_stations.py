@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/26-C01P15
+
 def gas_stations(distance, tank_size, stations):
     result = []
     traveled = 0
@@ -20,6 +23,7 @@ def gas_stations(distance, tank_size, stations):
     
     if last_station > 0 and last_station not in result:
         result.append(last_station)
+    
     return result
 
 tests = [
