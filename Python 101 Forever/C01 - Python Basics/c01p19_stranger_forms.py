@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C01-Python-Basics/29-C01P19
+
 from copy import deepcopy
 from pprint import pprint
 
@@ -98,3 +101,35 @@ cinema_layout = ['..*...*.**',
 friends_configuration = ["A", "BAA", "FRA", "CAB", "DRC", "EAD", "GLE"]
 
 pprint(stranger_forms(cinema_layout, friends_configuration))
+#   Expected: ['..*GE.*.**',
+#              '...CD**...',
+#              '*.*B..*..*',
+#              '.**AF..*.*',
+#              '...*..*.*.',
+#              '.***...*..',
+#              '*......*.*',
+#              '.....**..*',
+#              '..*.*.*..*',
+#              '***.*.**..']
+
+#             ['..*...*.**',
+#              '.....**...',
+#              '*.*.GE*..*',
+#              '.**.CD.*.*',
+#              '...*B.*.*.',
+#              '.***AF.*..',
+#              '*......*.*',
+#              '.....**..*',
+#              '..*.*.*..*',
+#              '***.*.**..']
+
+#             ['..*...*.**',
+#              '.....**...',
+#              '*.*...*..*',
+#              '.**.GE.*.*',
+#              '...*CD*.*.',
+#              '.***B..*..',
+#              '*...AF.*.*',
+#              '.....**..*',
+#              '..*.*.*..*',
+#              '***.*.**..']
