@@ -21,6 +21,7 @@ def halves_are_alike(s):
     for char in a:
         if char in vowels:
             counter_a += 1
+            
     for char in b:
         if char in vowels:
             counter_b += 1
