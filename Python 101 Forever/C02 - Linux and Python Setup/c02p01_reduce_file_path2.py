@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Python-101-Forever/tree/master/C02-Linux-and-Python-Setup/05-C02P01
+
 def reduce_file_path(path):
     result = []
 
@@ -16,7 +19,7 @@ def reduce_file_path(path):
         
     return '/' + '/'.join(result)
 
-
+# Expected: True
 print(reduce_file_path("/") == "/")
 print(reduce_file_path("/srv/../") == "/")
 print(reduce_file_path("/srv/www/htdocs/wtf/") == "/srv/www/htdocs/wtf")
