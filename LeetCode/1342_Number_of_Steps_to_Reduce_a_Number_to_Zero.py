@@ -1,7 +1,5 @@
+# Problem description:
 # https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
-
-# Given an integer num, return the number of steps to reduce it to zero.
-# In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
 
 def number_of_steps(num):
     counter = 0
@@ -13,6 +11,7 @@ def number_of_steps(num):
         else:
             num -= 1
             counter += 1
+            
     return counter
 
 # Expected: 6
