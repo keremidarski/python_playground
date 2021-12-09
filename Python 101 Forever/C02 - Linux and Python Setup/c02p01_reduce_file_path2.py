@@ -11,10 +11,8 @@ def reduce_file_path(path):
         if i == '..':
             if len(result) > 0:
                 result.pop()
-                continue
-            else:
-                continue
-
+            continue
+            
         result.append(i)
         
     return '/' + '/'.join(result)
