@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/count-the-number-of-consistent-strings/
+
 def count_consistent_strings(allowed, words):
     result = 0
     in_allowed = False
@@ -11,6 +14,8 @@ def count_consistent_strings(allowed, words):
                 break
         if in_allowed:
             result += 1
+            
     return result
 
+# Expected: True
 print(count_consistent_strings('ab', ['ad', 'bd', 'aaab', 'baa', 'badab']) == 2)
