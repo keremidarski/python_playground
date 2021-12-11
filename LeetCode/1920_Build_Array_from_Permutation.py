@@ -1,8 +1,12 @@
+# Problem description:
+# https://leetcode.com/problems/build-array-from-permutation/
+
 def build_array(nums):
     result = nums.copy()
         
     for i in range(len(nums)):
         result[i] = nums[nums[i]]
+        
     return result
 
 # Expected: [0, 1, 2, 4, 5, 3]
