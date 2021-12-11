@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/sorting-the-sentence/
+
 def sort_sentence(s):
     s_list = []
     temp_group = []
@@ -19,4 +22,5 @@ def sort_sentence(s):
 
     return ' '.join(result)
 
+# Expected: 'Me Myself and I'
 print(sort_sentence('Myself2 Me1 I4 and3'))
