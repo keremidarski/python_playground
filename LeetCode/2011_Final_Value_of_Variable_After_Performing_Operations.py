@@ -1,3 +1,6 @@
+# Problem description:
+# 
+
 def final_value_after_operations(operations):
     result = 0
         
@@ -6,6 +9,7 @@ def final_value_after_operations(operations):
             result += -1
         elif '+' in operation:
             result += 1
+            
     return result
 
 # Expected: 1
