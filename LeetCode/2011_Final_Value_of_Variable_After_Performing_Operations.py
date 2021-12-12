@@ -1,5 +1,5 @@
 # Problem description:
-# 
+# https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
 
 def final_value_after_operations(operations):
     result = 0
