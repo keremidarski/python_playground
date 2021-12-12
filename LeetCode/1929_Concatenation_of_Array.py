@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/concatenation-of-array/
+
 def get_concatenation(nums):
     result = []
     counter = len(nums)
@@ -11,4 +14,5 @@ def get_concatenation(nums):
     
     return result
 
+# Expected: [1, 2, 1, 1, 2, 1]
 print(get_concatenation([1, 2, 1]))
