@@ -13,4 +13,4 @@ def final_value_after_operations(operations):
     return result
 
 # Expected: 1
-print(final_value_after_operations(['--X','X++','X++']))
+print(final_value_after_operations(['--X', 'X++', 'X++']))
