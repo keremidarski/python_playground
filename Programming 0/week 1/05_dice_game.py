@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/2-If-Elif-Else-Simple-Problems
+
 from random import randint
 
 sides = int(input('Enter dice side: '))
