@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/3-And-Or-Not-In-Problems
+
 points = int(input('Enter points: '))
 
 if points >= 0 and points <= 50:
