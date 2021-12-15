@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/3-And-Or-Not-In-Problems
+
 interval_lower = int(input('Enter lower bound: '))
 interval_upper = int(input('Enter upper bound: '))
 number = int(input('Enter number: '))
