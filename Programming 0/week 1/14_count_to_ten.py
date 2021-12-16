@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/4-While-Loop-Problems
+
 counter = 0
 
 while counter < 10:
