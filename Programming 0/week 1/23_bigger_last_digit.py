@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/5-Saturday-Tasks
+
 num_n = int(input('Enter N: '))
 num_m = int(input('Enter M: '))
 
