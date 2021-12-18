@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/5-Saturday-Tasks
+
 number = int(input('Enter number: '))
 
 reversed_number = 0
