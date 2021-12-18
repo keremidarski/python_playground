@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week1/5-Saturday-Tasks
+
 number = int(input('Enter a 3-digit number: '))
 
 z = number % 10
