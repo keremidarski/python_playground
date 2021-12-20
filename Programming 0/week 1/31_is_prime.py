@@ -2,7 +2,6 @@
 # https://github.com/HackBulgaria/Programming0-1/tree/master/week1/5-Saturday-Tasks
 
 number = int(input('Enter number: '))
-
 counter = 0
 
 for i in range(2, number + 1):
