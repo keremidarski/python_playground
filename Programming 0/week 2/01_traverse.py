@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week2/2-List-Problems
+
 books = ["Learn You a Haskell", 
          "The Healthy Programmer",
          "Code Complete",
