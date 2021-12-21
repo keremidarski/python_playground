@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week2/2-List-Problems
+
 n = int(input('Enter n: '))
 
 counter = 0
@@ -10,9 +13,11 @@ while counter < n:
     if number % 2 == 0:
         evens_count += 1
         evens += [number]
+        
     counter += 1
 
 print(f'Count of evens: {evens_count}')
 print('Evens are:')
+
 for i in evens:
     print(i)
