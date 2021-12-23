@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week2/3-Simple-Algorithms
+
 n = int(input('Enter n: '))
 
 start = 6
