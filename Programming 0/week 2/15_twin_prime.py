@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week2/3-Simple-Algorithms
+
 p = int(input('Enter p: '))
 counter_p = 0
 
