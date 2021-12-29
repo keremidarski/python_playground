@@ -1029,4 +1029,5 @@ dimentions = """3x11x24
 24x25x17
 14x6x11"""
 
+# Expected: 3783758
 print(sq_feet_ribbon(dimentions))
