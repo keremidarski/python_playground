@@ -1029,4 +1029,5 @@ dimentions = """3x11x24
 24x25x17
 14x6x11"""
 
+# Expected: 1588178
 print(sq_feet_paper(dimentions))
