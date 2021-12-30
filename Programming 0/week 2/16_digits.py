@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week2/4-Three-More-Problems
+
 number = int(input('Enter number: '))
 
 digit_list = []
