@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week3/1-Baby-Steps
+
 def square(x):
     return x ** 2
 
@@ -10,6 +13,7 @@ def fact(x):
     while start <= x:
         product *= start
         start += 1
+    
     return product
 
 #print(fact(6))
@@ -19,6 +23,7 @@ def count_elements(x):
 
     for i in x:
         counter += 1
+    
     return counter
 
 #print(count_elements(['ivo', 'jeko', 'edi']))
@@ -28,6 +33,7 @@ def member(x, xs):
 
     if x not in xs:
         is_member = False
+    
     return is_member
 
 #print(member('Python', ['Django', 'Rails']))
@@ -40,6 +46,7 @@ def grades_that_pass(students, grades, limit):
     for count, value in enumerate(grades):
         if value >= limit:
             result += [students[count]]           
+    
     return result
 
 #print(grades_that_pass(students, grades, 4.0))
