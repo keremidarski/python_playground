@@ -1,9 +1,13 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week3/2-Resolve-with-Functions
+
 def divisors(n):
     divisors = []
 
     for i in range(1, n):
         if n % i == 0:
             divisors += [i]
+            
     return divisors
 
 def sum_divisors(n):
@@ -11,6 +15,7 @@ def sum_divisors(n):
 
     for i in n:
         sum += i
+        
     return sum
 
 func1 = divisors(10)
