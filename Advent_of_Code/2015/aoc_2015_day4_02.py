@@ -15,4 +15,5 @@ def find_hash(prefix):
 
         n += 1
 
+# Expected: 1038736
 print(find_hash('bgvyzdsv'))
