@@ -14,6 +14,7 @@ def has_three_vowels(string):
     
     return False
 
+
 def same_letter(string):
     last_char = ''
 
@@ -24,6 +25,7 @@ def same_letter(string):
             last_char = char
     
     return False
+
 
 def no_bad_strings(string):
     bad_strings = ['ab', 'cd', 'pq', 'xy']
@@ -45,6 +47,7 @@ def naughty_or_nice(input):
             result += 1
 
     return result
+
 
 input = '''sszojmmrrkwuftyv
 isaljhemltsdzlum
