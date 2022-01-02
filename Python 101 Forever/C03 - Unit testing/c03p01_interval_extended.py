@@ -42,25 +42,25 @@ closed_interval = Interval(1, 10)
 print(closed_interval.is_inside(1) is True)
 print(closed_interval.is_inside(5) is True)
 print(closed_interval.is_inside(10) is True)
-print(closed_interval.stringify() == "[1, 10]")
+print(closed_interval.stringify() == '[1, 10]')
 
 opened_interval = Interval(1, 10, start_opened=True, end_opened=True)
 
 print(opened_interval.is_inside(1) is False)
 print(opened_interval.is_inside(5) is True)
 print(opened_interval.is_inside(10) is False)
-print(opened_interval.stringify() == "(1, 10)")
+print(opened_interval.stringify() == '(1, 10)')
 
 half_opened_interval = Interval(1, 10, start_opened=False, end_opened=True)
 
 print(half_opened_interval.is_inside(1) is True)
 print(half_opened_interval.is_inside(5) is True)
 print(half_opened_interval.is_inside(10) is False)
-print(half_opened_interval.stringify() == "[1, 10)")
+print(half_opened_interval.stringify() == '[1, 10)')
 
 half_opened_interval = Interval(1, 10, start_opened=True, end_opened=False)
 
 print(half_opened_interval.is_inside(1) is False)
 print(half_opened_interval.is_inside(5) is True)
 print(half_opened_interval.is_inside(10) is True)
-print(half_opened_interval.stringify() == "(1, 10]")
+print(half_opened_interval.stringify() == '(1, 10]')
