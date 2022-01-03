@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week3/2-Resolve-with-Functions
+
 def is_prime(n):
     start = 2
     is_prime = True
