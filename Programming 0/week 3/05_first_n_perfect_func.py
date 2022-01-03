@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week3/2-Resolve-with-Functions
+
 def sum_divisors(n):
     sum = 0
 
