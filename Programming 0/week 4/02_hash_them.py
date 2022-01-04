@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/2-Hash-Them
+
 def hash_them(keys, values):
     result = {}
     
