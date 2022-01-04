@@ -16,4 +16,5 @@ def hash_them(keys, values):
 
     return result
 
+# Expected: {'Ivan': 1, 'Maria': 2}
 print(hash_them(['Ivan', 'Maria'], [1, 2]))
