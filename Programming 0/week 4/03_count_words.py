@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/3-Count-Words
+
 def count_words(words):
     result = {}
     
@@ -9,4 +12,5 @@ def count_words(words):
 
     return result
 
-print(count_words(["words", "are", "meaningful", "words", "words", "are"]))
+# Expected: {'words': 3, 'are': 2, 'meaningful': 1}
+print(count_words(['words', 'are', 'meaningful', 'words', 'words', 'are']))
