@@ -35,7 +35,7 @@ def gson():
             else:
                 result = result.get(key)
         except (AttributeError, KeyError):
-            print("Error: Property not found")
+            print('Error: Property not found')
             sys.exit(1)
 
     return result
