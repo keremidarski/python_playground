@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/5-Coins
+
 def calculate_coins(sum):
     result = {'2lv': 0, '1lv': 0, '50st': 0, '20st': 0, '10st': 0, '5st': 0, '2st': 0, '1st': 0}
     coins = sum * 100
