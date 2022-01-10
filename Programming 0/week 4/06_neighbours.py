@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/6-Count-of-Neighbours-With-Zero-Sum
+
 def count_zero_neighbours(numbers):
     counter = 0
     length = len(numbers)
