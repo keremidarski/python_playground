@@ -9,6 +9,7 @@ def count_zero_neighbours(numbers):
 
             if x + y == 0:
                 counter += 1
+
     return counter
 
 print(count_zero_neighbours([1, -1, 2, -2, 0, 0, 5, -5]))
