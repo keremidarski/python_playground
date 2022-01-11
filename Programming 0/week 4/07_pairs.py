@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/7-Count-of-All-Pairs-With-Zero-Sum
+
 def count_zero_pairs(numbers):
     count = 0
     n = len(numbers)
