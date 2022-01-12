@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/9-1-People-at-Concert
+
 def get_people_count(activity):
     people_count = []
 
