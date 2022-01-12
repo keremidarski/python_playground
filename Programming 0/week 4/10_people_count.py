@@ -10,4 +10,4 @@ def get_people_count(activity):
 
     return len(people_count)
 
-print(get_people_count(["Rado", "Ivo", "Maria", "Anneta", "Rado", "Rado", "Anneta", "Ivo", "Maria", "Rado"]))
+print(get_people_count(['Rado', 'Ivo', 'Maria', 'Anneta', 'Rado', 'Rado', 'Anneta', 'Ivo', 'Maria', 'Rado']))
