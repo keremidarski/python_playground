@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/9-Winter-Is-Coming
+
 def winter_is_coming(seasons):
     is_coming = False
     counter = 0
