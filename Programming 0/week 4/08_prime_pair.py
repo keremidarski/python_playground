@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week4/8-Pair-With-Prime-Sum
+
 def is_prime(n):
     start = 2
     is_prime = True
@@ -13,6 +16,7 @@ def is_prime(n):
         is_prime = False
 
     return is_prime
+
 
 def count_zero_pairs(numbers):
     count = 0
@@ -31,6 +35,8 @@ def count_zero_pairs(numbers):
 
     if count != 0:
         prime = True
+        
     return prime
+
 
 print(count_zero_pairs([5, 2]))
