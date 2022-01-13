@@ -1,3 +1,6 @@
+# Problem description:
+# https://youtu.be/VvjWU9fponc
+
 def three_lists_zero_sum(list_a, list_b, list_c):
     zero_sum = False
     
