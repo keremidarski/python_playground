@@ -1,5 +1,5 @@
 # Problem description:
-# https://youtu.be/VvjWU9fponc
+# https://youtu.be/ngVPB90slw8
 
 def matrix_dimensions(matr):
     row_count = len(matr)
