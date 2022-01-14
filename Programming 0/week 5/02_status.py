@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week5/2-Course-Status
+
 def status_count(students):
     finalized = []
     not_finalized = []
