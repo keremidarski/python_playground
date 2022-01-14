@@ -1,3 +1,7 @@
+
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week5/1-On-Budget
+
 def on_budget(books, budget):
     books.sort()
     total_cost = sum(books)
