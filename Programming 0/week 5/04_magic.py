@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week5/4-Magic-Square
+
 def magic_square(square):
     is_magic = False
     square_sum = sum(square[0])
@@ -12,6 +15,7 @@ def magic_square(square):
 
     if (row_one + row_two + row_three + column_one + column_two + column_three + diagonal_one + diagonal_two) / 8 == square_sum:
         is_magic = True
+        
     return is_magic
 
 square = [ [23, 28, 21],
