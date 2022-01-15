@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week5/3-Beer-and-Fries
+
 def max_score(beers, fries):
     beers.sort(reverse = True)
     fries.sort(reverse = True)
