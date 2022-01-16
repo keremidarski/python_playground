@@ -1,9 +1,14 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week3/2-Resolve-with-Functions
+
 def head(list):
     list_head = list[0]
+    
     return list_head
 
 def last(list):
     list_last = list[-1]
+    
     return list_last
 
 def tail(list):
@@ -12,6 +17,7 @@ def tail(list):
     for index in range(1, len(list)):
         item = list[index]
         result += [item]
+        
     return result
 
 def eq_lists(l1, l2):
@@ -21,6 +27,7 @@ def eq_lists(l1, l2):
     for index in range(0, len(l1)):
         if l1[index] != l2[index]:
             return False
+        
     return True
 
 def count_item(element, list):
@@ -29,6 +36,7 @@ def count_item(element, list):
     for ele in list:
         if ele == element:
             count += 1
+            
     return count
 
 def take(n, list):
@@ -36,6 +44,7 @@ def take(n, list):
 
     for i in range(0, n):
         result.append(list[i])
+        
     return result
 
 def drop(n, list):
@@ -43,10 +52,12 @@ def drop(n, list):
 
     for i in range(n, len(list)):
         result.append(list[i])
+        
     return result
 
 def reverse(list):
     reversed = []
     for i in list:
         reversed.insert(0, i)
+        
     return reversed
