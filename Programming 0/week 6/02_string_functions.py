@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week6/1-List-Functions
+
 def string_to_char_list(string):
     result = []
 
@@ -25,6 +28,7 @@ def reverse(str):
     reversed = ''
     for i in str:
         reversed = i + reversed
+        
     return reversed
 
 def join(delimiter, items):
@@ -38,6 +42,7 @@ def join(delimiter, items):
             result = result + str(item) + str(delimiter)
         else:
             result = result + str(item)
+            
     return result
     
 def startswith(search, string):
@@ -49,6 +54,7 @@ def startswith(search, string):
         else:
             does_start = False
             break
+            
     return does_start
 
 def endswith(search, string):
@@ -60,6 +66,7 @@ def endswith(search, string):
         else:
             does_start = False
             break
+            
     return does_start
 
 def trim(string):
@@ -79,6 +86,7 @@ def trim(string):
             for index in range(0, len(first_trim) - end_counter):
                 second_trim += str(first_trim[index])
             break
+            
     return second_trim
 
 print(trim('     edno dve tri   ')) # -> 'edno dve tri'
