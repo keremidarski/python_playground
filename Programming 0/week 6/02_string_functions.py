@@ -1,5 +1,5 @@
 # Problem description:
-# https://github.com/HackBulgaria/Programming0-1/tree/master/week6/1-List-Functions
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week6/2-String-Functions
 
 def string_to_char_list(string):
     result = []
