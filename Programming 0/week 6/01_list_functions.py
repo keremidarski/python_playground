@@ -1,5 +1,5 @@
 # Problem description:
-# https://github.com/HackBulgaria/Programming0-1/tree/master/week3/2-Resolve-with-Functions
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week6/1-List-Functions
 
 def head(list):
     list_head = list[0]
