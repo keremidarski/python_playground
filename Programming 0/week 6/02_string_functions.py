@@ -9,6 +9,7 @@ def string_to_char_list(string):
 
     return result
 
+
 def char_list_to_string(char_list):
     result = ""
 
@@ -17,6 +18,7 @@ def char_list_to_string(char_list):
 
     return result
 
+
 def change_string(index, ch, string):
     char_list = string_to_char_list(string)
 
@@ -24,12 +26,14 @@ def change_string(index, ch, string):
 
     return char_list_to_string(char_list)
 
+
 def reverse(str):
     reversed = ''
     for i in str:
         reversed = i + reversed
         
     return reversed
+
 
 def join(delimiter, items):
     result = ''
@@ -45,6 +49,7 @@ def join(delimiter, items):
             
     return result
     
+    
 def startswith(search, string):
     does_start = False
 
@@ -57,6 +62,7 @@ def startswith(search, string):
             
     return does_start
 
+
 def endswith(search, string):
     does_start = False
 
@@ -68,6 +74,7 @@ def endswith(search, string):
             break
             
     return does_start
+
 
 def trim(string):
     first_trim = ''
@@ -88,5 +95,6 @@ def trim(string):
             break
             
     return second_trim
+
 
 print(trim('     edno dve tri   ')) # -> 'edno dve tri'
