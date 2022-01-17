@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week6/3-Forecast
+
 def forecast(days):
     sunny_days = 0
     rainy_days = 0
