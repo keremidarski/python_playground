@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week7/2-Coolest-Palindrome
+
 def is_palindrom(string):
     string = string.lower()
     normal = []
@@ -15,4 +18,4 @@ def is_palindrom(string):
     else:
         return False
 
-print(is_palindrom("Az obi4am ma4 i boza!!!"))
+print(is_palindrom('Az obi4am ma4 i boza!!!'))
