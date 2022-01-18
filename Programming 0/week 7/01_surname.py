@@ -7,4 +7,4 @@ def taken_name(surname_husband, surname_wife):
     else:
         return False
 
-print(taken_name("Petrov", "Ivanova-Petrova"))
+print(taken_name('Petrov', 'Ivanova-Petrova'))
