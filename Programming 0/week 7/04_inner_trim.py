@@ -30,5 +30,5 @@ def inner_trim(string):
 
     return ' '.join(result)
 
-
+# Expected: 'edno dve tri'
 print(inner_trim('     edno     dve    tri   '))
