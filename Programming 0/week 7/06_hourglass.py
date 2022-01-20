@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week7/5-Sandclock
+
 def hourglass(n):
     if n % 2 != 0:
         start = 3
