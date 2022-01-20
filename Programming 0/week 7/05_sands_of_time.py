@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/week7/5-Sandclock
+
 def sand_clock(number):
     og_num = number
     while number > 0:
