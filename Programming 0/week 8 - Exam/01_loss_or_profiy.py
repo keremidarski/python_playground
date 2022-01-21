@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/exam/1-Loss-or-Profit
+
 def loss_or_profit(income, outcome):
     income_sum = sum(income)
     outcome_sum = sum(outcome)
