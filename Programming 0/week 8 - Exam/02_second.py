@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/exam/2-Second-Largest
+
 def second_largest(numbers):
     numbers.sort()
     largest_num = numbers[-1]
@@ -5,11 +8,13 @@ def second_largest(numbers):
 
     if len(numbers) < 2:
         return False
+    
     for num in numbers:
         if num == largest_num:
             same_number = True
         else:
             same_number = False
+            
     if same_number:
         return False
 
