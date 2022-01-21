@@ -1,3 +1,6 @@
+# Problem description:
+# https://github.com/HackBulgaria/Programming0-1/tree/master/exam/3-Cipher-Text
+
 def decode_word(encrypted_word, cipher):
     decrypted_word = ''
     
