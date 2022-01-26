@@ -8,6 +8,7 @@ def number_of_matches(n):
         if n % 2 == 1:
             n -= 1
             result += 1
+            
         n -= n // 2
         result += n 
 
