@@ -1,10 +1,10 @@
 # Problem description:
 # https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 
-def most_words_found(list):
+def most_words_found(sentences):
     result = 0
         
-    for sentence in list:
+    for sentence in sentences:
         if len(sentence.split(' ')) > result:
             result = len(sentence.split(' '))
                 
