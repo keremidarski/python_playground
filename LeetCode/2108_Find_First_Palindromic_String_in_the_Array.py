@@ -7,3 +7,4 @@ def first_palindrome(words):
             return word
         
     return ''
+
