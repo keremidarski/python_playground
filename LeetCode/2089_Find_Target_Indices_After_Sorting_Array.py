@@ -10,4 +10,4 @@ def find_target(nums, target):
         
     return result
 
-print(find_target([1,2,5,2,3], 2))
+print(find_target([1, 2, 5, 2, 3], 2))
