@@ -10,3 +10,7 @@ def min_moves_to_seat(seats, students):
         result += abs(sorted_students[i] - sorted_seats[i])
 
     return result
+
+
+# Expected: 4
+print(min_moves_to_seat([3,1,5], [2,7,4]))
