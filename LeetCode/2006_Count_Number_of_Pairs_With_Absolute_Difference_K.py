@@ -11,4 +11,5 @@ def count_k_difference(nums, k):
 
     return result
 
+# Expected: 4
 print(count_k_difference([1, 2, 2, 1], 1))
