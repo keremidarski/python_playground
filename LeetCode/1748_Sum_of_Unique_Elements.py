@@ -16,3 +16,5 @@ def sum_of_unique(nums):
             result += key
 
     return result
+
+print(sum_of_unique([1,2,3,2]))
