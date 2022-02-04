@@ -17,4 +17,4 @@ def sum_of_unique(nums):
 
     return result
 
-print(sum_of_unique([1,2,3,2]))
+print(sum_of_unique([1, 2, 3, 2]))
