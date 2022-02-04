@@ -17,4 +17,5 @@ def sum_of_unique(nums):
 
     return result
 
+# Expected: 4
 print(sum_of_unique([1, 2, 3, 2]))
