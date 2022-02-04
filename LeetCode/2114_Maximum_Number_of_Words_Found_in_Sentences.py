@@ -9,4 +9,6 @@ def most_words_found(sentences):
             result = len(sentence.split(' '))
                 
     return result
-  
+
+# Expected: 6
+print(most_words_found(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]))
