@@ -20,3 +20,5 @@ def judge_circle(moves):
 
 # Expected: True
 print(judge_circle('UD'))
+# Expected: False
+print(judge_circle('LL'))
