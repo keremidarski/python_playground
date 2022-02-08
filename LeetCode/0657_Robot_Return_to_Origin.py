@@ -18,4 +18,5 @@ def judge_circle(moves):
 
     return start_position == (current_row, current_column)
 
+# Expected: True
 print(judge_circle('UD'))
