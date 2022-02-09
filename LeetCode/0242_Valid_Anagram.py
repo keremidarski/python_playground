@@ -18,3 +18,9 @@ def is_anagram(s, t):
             t_occurances[char] += 1
             
     return s_occurances == t_occurances
+
+
+# Expected: True
+print(is_anagram("anagram", "nagaram"))
+# Expected: False
+print(is_anagram("rat", "car"))
