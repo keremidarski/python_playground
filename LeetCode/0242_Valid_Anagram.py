@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/valid-anagram/
+
 def is_anagram(s, t):
     s_occurances = {}
     t_occurances = {}
