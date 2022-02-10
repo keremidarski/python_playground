@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/self-dividing-numbers/
+
 def is_self_dividing(left, right):
     result = []
     is_self_dividing = False
