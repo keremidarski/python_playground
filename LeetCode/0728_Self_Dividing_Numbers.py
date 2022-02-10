@@ -20,3 +20,5 @@ def is_self_dividing(left, right):
 
 # Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
 print(is_self_dividing(1, 22))
+# Expected: [48, 55, 66, 77]
+print(is_self_dividing(47, 85))
