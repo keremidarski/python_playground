@@ -17,3 +17,4 @@ def minimum_sum(num):
 
 # Expected: 52
 print(minimum_sum(2932))
+print(minimum_sum(4009))
