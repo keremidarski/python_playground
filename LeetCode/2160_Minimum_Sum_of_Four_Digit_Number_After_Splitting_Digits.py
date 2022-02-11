@@ -13,3 +13,7 @@ def minimum_sum(num):
     new2 = f'{str(nums[1])}{str(nums[3])}'
 
     return int(new1) + int(new2)
+
+
+# Expected: 52
+print(minimum_sum(2932))
