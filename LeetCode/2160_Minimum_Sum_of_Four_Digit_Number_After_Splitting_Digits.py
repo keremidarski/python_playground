@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/self-dividing-numbers/
+
 def minimum_sum(num):
     nums = []
 
