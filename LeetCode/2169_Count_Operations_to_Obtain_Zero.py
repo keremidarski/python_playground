@@ -13,3 +13,5 @@ def count_operations(num1, num2):
             operations += 1
 
     return operations
+
+print(count_operations(2, 3))
