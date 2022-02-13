@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/count-operations-to-obtain-zero/
+
 def count_operations(num1, num2):
     operations = 0
 
