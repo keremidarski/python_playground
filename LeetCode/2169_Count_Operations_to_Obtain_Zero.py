@@ -14,4 +14,5 @@ def count_operations(num1, num2):
 
     return operations
 
+# Expected: 3
 print(count_operations(2, 3))
