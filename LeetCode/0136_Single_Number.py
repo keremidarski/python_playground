@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/single-number/
+
 def single_number(nums):
     num_occurances = {}
     
@@ -7,3 +10,4 @@ def single_number(nums):
     for key, value in num_occurances.items():
         if value == 1:
             return key
+
