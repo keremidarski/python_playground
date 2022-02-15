@@ -11,3 +11,5 @@ def single_number(nums):
         if value == 1:
             return key
 
+# Expected: 1
+print(single_number([2, 2, 1]))
