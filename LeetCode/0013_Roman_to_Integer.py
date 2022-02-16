@@ -12,3 +12,6 @@ def roman_to_int(s):
             result += roman[s[i]]
 
     return result + roman[s[-1]]
+
+# Expected: 3
+print(roman_to_int('III'))
