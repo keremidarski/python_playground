@@ -15,3 +15,6 @@ def roman_to_int(s):
 
 # Expected: 3
 print(roman_to_int('III'))
+# Expected: 58
+print(roman_to_int('LVIII'))
+
