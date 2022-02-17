@@ -1,0 +1,14 @@
+def diagonal_sum(mat):
+    result = {}
+    column = 0
+
+    for i in range(len(mat)):
+        position = i, i
+        result[position] = result.get(position, mat[i][i])
+
+    for i in range(len(mat) - 1, - 1, - 1):
+        position = i, column
+        result[position] = result.get(position, mat[i][column])
+        column += 1
+
+    return sum(result.values())
