@@ -27,5 +27,5 @@ mat = [[1,1,1,1],
        [1,1,1,1],
        [1,1,1,1],
        [1,1,1,1]]
-
+# Expected: 8
 print(diagonal_sum(mat))
