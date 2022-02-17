@@ -15,3 +15,8 @@ def diagonal_sum(mat):
         column += 1
 
     return sum(result.values())
+
+
+mat = [[1,2,3],
+       [4,5,6],
+       [7,8,9]]
