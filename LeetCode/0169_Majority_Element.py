@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/majority-element/
+
 def majority_element(nums):
     count = {}
     result = 0
