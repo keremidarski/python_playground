@@ -15,3 +15,6 @@ def majority_element(nums):
         max_count = max(count[num], max_count)
 
     return result
+
+# Expected: 3
+print(majority_element([3, 2, 3]))
