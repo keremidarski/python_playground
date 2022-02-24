@@ -28,6 +28,7 @@ def naughty_or_nice(input):
 
     return result
 
+
 input = '''sszojmmrrkwuftyv
 isaljhemltsdzlum
 fujcyucsrxgatisb
