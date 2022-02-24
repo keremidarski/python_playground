@@ -10,12 +10,12 @@ def has_pair(string):
     
     return False
 
+
 def has_repeating_letter(string):
     for i in range(len(string) - 2):
         if string[i] == string[i + 2]:
             return True
 
-        
     return False
 
 def naughty_or_nice(input):
