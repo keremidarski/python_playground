@@ -18,6 +18,7 @@ def has_repeating_letter(string):
 
     return False
 
+
 def naughty_or_nice(input):
     result = 0
 
