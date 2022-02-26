@@ -6,3 +6,7 @@ def find_final_value(nums, original):
         original *= 2
     
     return original
+
+
+# Expected: 24
+print(find_final_value([5,3,6,1,12], 3))
