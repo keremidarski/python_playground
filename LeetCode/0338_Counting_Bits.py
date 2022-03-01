@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/counting-bits/
+
 def count_bits(n):
     dp = [0] * (n + 1)
     offset = 1
