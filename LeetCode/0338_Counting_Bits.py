@@ -12,3 +12,7 @@ def count_bits(n):
         dp[i] = 1 + dp[i - offset]
 
     return dp
+
+
+# Expected: [0, 1, 1]
+print(count_bits(2))
