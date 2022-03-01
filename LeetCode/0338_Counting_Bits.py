@@ -16,3 +16,5 @@ def count_bits(n):
 
 # Expected: [0, 1, 1]
 print(count_bits(2))
+# Expected: [0, 1, 1, 2, 1, 2]
+print(count_bits(5))
