@@ -10,3 +10,7 @@ def is_subsequence(s, t):
         j += 1
     
     return True if i == len(s) else False
+
+
+# Expected: True
+print(is_subsequence('abc', 'ahbgdc'))
