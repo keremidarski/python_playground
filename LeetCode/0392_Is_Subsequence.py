@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/is-subsequence/
+
 def is_subsequence(s, t):
     i, j = 0, 0
 
