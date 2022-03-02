@@ -16,3 +16,5 @@ def is_subsequence(s, t):
 print(is_subsequence('abc', 'ahbgdc'))
 # Expected: False
 print(is_subsequence('axc', 'ahbgdc'))
+# Expected: False
+print(is_subsequence('ace', 'aec'))
