@@ -1,3 +1,7 @@
+# Problem description:
+# https://leetcode.com/problems/valid-parentheses/
+
+
 def is_valid(s):
     stack = []
     close_to_open = {')': '(', ']': '[', '}': '{'}
