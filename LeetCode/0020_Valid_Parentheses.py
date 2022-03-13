@@ -20,3 +20,7 @@ def is_valid(s):
 
 # Expected: True
 print(is_valid('()'))
+# Expected: True
+print(is_valid('()[]{}'))
+# Expected: False
+print(is_valid('(]'))
