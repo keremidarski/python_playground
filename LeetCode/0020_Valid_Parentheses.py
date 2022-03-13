@@ -16,3 +16,7 @@ def is_valid(s):
             stack.append(char)
 
     return True if not stack else False
+
+
+# Expected: True
+print(is_valid('()'))
