@@ -1,3 +1,6 @@
+# Problem description:
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 def max_profit(prices):
     lowest = 0
     highest = 1
