@@ -1,3 +1,7 @@
+# Problem description:
+# https://leetcode.com/problems/contains-duplicate/
+
+
 def contains_duplicate(nums):
     occ = set()
 
