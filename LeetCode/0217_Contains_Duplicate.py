@@ -18,3 +18,5 @@ def contains_duplicate(nums):
 print(contains_duplicate([1, 2, 3, 1]))
 # Expected: False
 print(contains_duplicate([1, 2, 3, 4]))
+# Expected: True
+print(contains_duplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))
