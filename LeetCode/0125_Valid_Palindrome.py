@@ -10,3 +10,5 @@ def is_palindrome(s):
 
 # Expected: True
 print(is_palindrome('A man, a plan, a canal: Panama'))
+# Expected: False
+print(is_palindrome('race a car'))
