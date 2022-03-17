@@ -1,3 +1,7 @@
+# Problem description:
+# https://leetcode.com/problems/maximum-subarray/
+
+
 def max_sub_array(nums):
     max_sub = nums[0]
     curr_sum = 0
