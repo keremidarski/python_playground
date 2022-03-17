@@ -14,3 +14,8 @@ def max_sub_array(nums):
         max_sub = max(max_sub, curr_sum)
 
     return max_sub
+
+
+# Expected: 6
+print(max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+
