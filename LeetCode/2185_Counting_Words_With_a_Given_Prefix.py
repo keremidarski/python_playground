@@ -1,3 +1,7 @@
+# Problem description:
+# https://leetcode.com/problems/counting-words-with-a-given-prefix/
+
+
 def prefix_count(words, pref):
     res = 0
 
