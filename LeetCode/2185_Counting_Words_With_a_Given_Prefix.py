@@ -10,3 +10,6 @@ def prefix_count(words, pref):
             res += 1
 
     return res
+
+# Expected: 2
+print(prefix_count(["pay", "attention", "practice", "attend"], "at"))
