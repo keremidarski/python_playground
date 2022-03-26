@@ -16,3 +16,7 @@ def search(nums, target):
             return m
     
     return -1
+
+
+# Expected: 4
+print(search([-1, 0, 3, 5, 9, 12], 9))
