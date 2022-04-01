@@ -1,3 +1,7 @@
+# Problem description:
+# https://leetcode.com/problems/reverse-string/
+
+
 def reverse_string(s):
     l, r = 0, len(s) - 1
 
