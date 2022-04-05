@@ -14,7 +14,7 @@ def reverse_string(s):
 s = ['h', 'e', 'l', 'l', 'o']
 reverse_string(s)
 print(s)
-# Expected: ['h','a','n','n','a','H']
-s = ['H','a','n','n','a','h']
+# Expected: ['h', 'a', 'n', 'n', 'a', 'H']
+s = ['H', 'a', 'n', 'n', 'a', 'h']
 reverse_string(s)
 print(s)
