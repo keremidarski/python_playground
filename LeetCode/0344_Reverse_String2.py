@@ -10,8 +10,8 @@ def reverse_string(s):
         l, r = l + 1, r - 1
 
 
-# Expected: ['o','l','l','e','h']
-s = ['h','e','l','l','o']
+# Expected: ['o', 'l', 'l', 'e','h']
+s = ['h', 'e', 'l', 'l', 'o']
 reverse_string(s)
 print(s)
 # Expected: ['h','a','n','n','a','H']
