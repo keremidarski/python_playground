@@ -16,4 +16,4 @@ def dest_city(paths):
 # Expected: 'Sao Paulo'
 print(dest_city([['London', 'New York'], ['New York', 'Lima'], ['Lima', 'Sao Paulo']]))
 # Expected: 'A'
-print(dest_city([["B", "C"], ["D", "B"], ["C", "A"]]))
+print(dest_city([['B', 'C'], ['D', 'B'], ['C', 'A']]))
