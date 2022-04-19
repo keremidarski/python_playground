@@ -23,4 +23,5 @@ def reverse_prefix(word, ch):
 print(reverse_prefix('abcdefd', 'd'))
 # Expected: 'zxyxxe'
 print(reverse_prefix('xyxzxe', 'z'))
-
+# Expected: 'abcd'
+print(reverse_prefix('abcd', 'z'))
