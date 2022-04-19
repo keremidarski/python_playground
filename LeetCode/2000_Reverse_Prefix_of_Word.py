@@ -1,6 +1,7 @@
 # Problem description:
 # https://leetcode.com/problems/reverse-prefix-of-word/
 
+
 def reverse_prefix(word, ch):
     prefix = []
     counter = 0
@@ -16,6 +17,7 @@ def reverse_prefix(word, ch):
                 prefix.reverse()
 
     return ''.join(prefix)
+
 
 # Expected: 'dcbaefd'
 print(reverse_prefix('abcdefd', 'd'))
