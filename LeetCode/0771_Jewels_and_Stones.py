@@ -15,3 +15,5 @@ def jewels_in_stones(jewels, stones):
 
 # Expected: 3
 print(jewels_in_stones('aA', 'aAAbbbb'))
+# Expected: 0
+print(jewels_in_stones('z', 'ZZ'))
