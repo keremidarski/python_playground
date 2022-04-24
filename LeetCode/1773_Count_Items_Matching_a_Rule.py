@@ -15,7 +15,10 @@ def count_matches(items, rule_key, rule_value):
     for item in items:
         if item[key] == rule_value:
             result += 1
+            
     return result
 
 # Expected: 1
 print(count_matches([['phone', 'blue', 'pixel'], ['computer', 'silver', 'lenovo'], ['phone', 'gold', 'iphone']], 'color', 'silver'))
+# Expected: 1
+print(count_matches([['phone','blue','pixel'],['computer','silver','phone'],['phone','gold','iphone']], 'color', 'silver'))
