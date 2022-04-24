@@ -21,4 +21,4 @@ def count_matches(items, rule_key, rule_value):
 # Expected: 1
 print(count_matches([['phone', 'blue', 'pixel'], ['computer', 'silver', 'lenovo'], ['phone', 'gold', 'iphone']], 'color', 'silver'))
 # Expected: 1
-print(count_matches([['phone','blue','pixel'],['computer','silver','phone'],['phone','gold','iphone']], 'color', 'silver'))
+print(count_matches([['phone','blue','pixel'], ['computer','silver','phone'], ['phone','gold','iphone']], 'color', 'silver'))
