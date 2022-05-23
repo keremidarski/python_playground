@@ -1,5 +1,5 @@
-# Problem description:
-# https://leetcode.com/problems/bank-account-summary-ii/
+/* Problem description:
+   https://leetcode.com/problems/bank-account-summary-ii/ */
 
 SELECT name, SUM(amount) AS balance
 FROM users AS u
