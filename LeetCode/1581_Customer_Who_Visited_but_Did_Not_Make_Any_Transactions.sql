@@ -1,3 +1,6 @@
+/* Problem description: 
+   https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/ */
+
 SELECT
 	customer_id,
 	COUNT(Visits.visit_id) AS count_no_trans
