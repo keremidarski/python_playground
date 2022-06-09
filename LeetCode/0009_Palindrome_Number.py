@@ -1,6 +1,7 @@
 # Problem description:
 # https://leetcode.com/problems/palindrome-number/
 
+
 def is_palindrome(x):
     result = []
     
@@ -11,6 +12,7 @@ def is_palindrome(x):
         return True
     
     return False
+
 
 # Expected: True
 print(is_palindrome(121))
