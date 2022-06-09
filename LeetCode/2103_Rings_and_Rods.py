@@ -1,6 +1,7 @@
 # Problem description:
 # https://leetcode.com/problems/rings-and-rods/
 
+
 def count_points(rings):
     ring_colors = {}
     result = 0
@@ -16,5 +17,6 @@ def count_points(rings):
             result += 1
 
     return result
+
 
 print(count_points("B0B6G0R6R0R6G9"))
