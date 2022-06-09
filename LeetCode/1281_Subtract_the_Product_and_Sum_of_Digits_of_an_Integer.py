@@ -1,6 +1,7 @@
 # Problem description:
 # https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ 
 
+
 def subtract_product_and_sum(n):
     digits = []
     product = 0
@@ -20,6 +21,7 @@ def subtract_product_and_sum(n):
             sum_of_d += digit
            
     return product - sum_of_d
+
 
 # Expected: 15
 print(subtract_product_and_sum(234))
