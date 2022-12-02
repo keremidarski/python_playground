@@ -26,7 +26,9 @@ def most_calories(dwarfs):
 
 
 def main():
-    print(most_calories(prep_input()))
+    data = prep_input()
+    result = most_calories(data)
+    print(result)
 
     
 
