@@ -2,7 +2,7 @@
 
 
 def prep_input():
-    with open("aoc_2022_da03_02.in") as file:
+    with open("./aoc_2022_da03.in") as file:
         data = file.read().splitlines()
 
     return data
